@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
@@ -94,6 +94,8 @@ label #sign-two{
     left: 0;
     top: 8px;
 }
+
+
 
 @media(max-width: 870px){
     label #sign-one{
