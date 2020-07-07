@@ -82,6 +82,19 @@ label #sign-two{
     display: none;
 }
 
+.page-title {
+    padding-left: 25px;
+    padding-top: 8px;
+}
+
+.page-title:before {
+    content: '\f168';
+    font-family: fontAwesome;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
 @media only screen and (max-width: 600px){
     
 }
