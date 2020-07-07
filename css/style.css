@@ -133,6 +133,7 @@ label #sign-two{
     position: center center;
     background-repeat: no-repeat;
     height: 100vh;
+    max-width: 100%;
 }
 .banner-text{
     position: relative;
@@ -341,4 +342,18 @@ label #sign-two{
 @media only screen and (orientation: landscape){
 
 }
+@media only screen and (max-width: 414px){
+    .col-span-1 {
+        flex-basis: 100%;
+      }
 
+      .header-text h1{
+        top: 29vh;
+    }
+    .header-text h2{
+        top: 36vh;
+    }
+    .social {
+        top: 5.5vh;
+      }
+}
