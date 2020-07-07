@@ -203,6 +203,22 @@ label #sign-two{
     color: rgb(245, 12, 12);
   }
 
+  @media only screen and (min-width: 360px){
+    .col-span-1 {
+        flex-basis: 100%;
+      }
+
+      .header-text h1{
+        top: 29vh;
+    }
+    .header-text h2{
+        top: 36vh;
+    }
+    .social {
+        top: 8vh;
+      }
+}
+
 @media(max-width: 870px){
     label #sign-one{
         display: block;
@@ -245,28 +261,77 @@ label #sign-two{
     .col-span-1 {
         flex-basis: 100%;
       }
+      .header-text h1{
+        top: 10vh;
+        margin-right: 12%;
+        font-size: 8vw;
+    }
+    .header-text h2{
+        top: 18vh;
+        margin-right: 15%;
+        font-size: 4.5vw;
+    }
 }
 
 @media only screen and (min-width: 600px){
-    
+    .header-text h1{
+        top: 20vh;
+        margin-right: 12%;
+        font-size: 8vw;
+    }
+    .header-text h2{
+        top: 30vh;
+        margin-right: 15%;
+        font-size: 4.5vw;
+    }
 }
 
 @media only screen and (min-width: 768px){
     .col-span-1 {
         flex-basis: 25%;
       }
+      .header-text h1{
+        top: 20vh;
+        margin-right: 12%;
+        font-size: 8vw;
+    }
+    .header-text h2{
+        top: 30vh;
+        margin-right: 15%;
+        font-size: 4.5vw;
+    }
 }
 
 @media only screen and (min-width: 992px){
     .col-span-1 {
         flex-basis: 25%;
       }
+      /* .header-text h1{
+        top: 25vh;
+        margin-right: 12%;
+        font-size: 8vw;
+    }
+    .header-text h2{
+        top: 35vh;
+        margin-right: 15%;
+        font-size: 4.5vw;
+    } */
 }
 
 @media only screen and (min-width: 1200px){
     .col-span-1 {
         flex-basis: 8.3333%;
       }
+
+      .header-text h1{
+        top: 50vh;
+    }
+    .header-text h2{
+        top: 68vh;
+    }
+    .social {
+        top: 30vh;
+    }
 }
 
 @media only screen and (orientation: portrait){
