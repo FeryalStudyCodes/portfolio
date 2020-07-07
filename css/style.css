@@ -95,7 +95,35 @@ label #sign-two{
     top: 8px;
 }
 
+.row {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+  }
 
+  .col {
+    flex: 1 1 8%;
+    margin: 0 0 0.5rem 0;
+    padding: 0.5em 10px;
+    box-sizing: border-box;
+  }
+
+  .col-span-1 {
+    flex-basis: 8.3333%;
+  }
+
+  .row {
+    background-color: #cccccc;
+    background-color: rgba(0,0,0,0.1);
+  }
+  .col {
+    background-color: #999999;
+    background-color: rgba(87, 87, 87, 0.2);
+    background-clip: content-box;
+    border: 1px solid rgb(255, 255, 255);
+  }
 
 @media(max-width: 870px){
     label #sign-one{
@@ -129,9 +157,16 @@ label #sign-two{
     #res-menu:checked ~ label #sign-two{
         display: block;
     }
+
+    .col-span-1{
+        flex-basis: 50%;
+    }
     }
 
 @media only screen and (max-width: 600px){
+    .col-span-1 {
+        flex-basis: 100%;
+      }
 }
 
 @media only screen and (min-width: 600px){
@@ -139,15 +174,21 @@ label #sign-two{
 }
 
 @media only screen and (min-width: 768px){
-
+    .col-span-1 {
+        flex-basis: 25%;
+      }
 }
 
 @media only screen and (min-width: 992px){
-
+    .col-span-1 {
+        flex-basis: 25%;
+      }
 }
 
 @media only screen and (min-width: 1200px){
-
+    .col-span-1 {
+        flex-basis: 8.3333%;
+      }
 }
 
 @media only screen and (orientation: portrait){
