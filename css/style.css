@@ -113,7 +113,7 @@ label #sign-two{
     nav ul li{
         display: block;
         margin: 40px 0;
-        line-height: 30px;
+        line-height: 25px;
     }
     nav ul li a{
         font-size: 20px;
@@ -130,37 +130,6 @@ label #sign-two{
     }
 
 @media only screen and (max-width: 600px){
-    label #sign-one{
-    display: block;
-}
-nav ul{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: black;
-    top: 50px;
-    left: -100%;
-    text-align: center;
-    transition: .5s;
-    z-index: 10;
-}
-nav ul li{
-    display: block;
-    margin: 40px 0;
-    line-height: 30px;
-}
-nav ul li a{
-    font-size: 20px;
-}
-#res-menu:checked ~ ul{
-left: 0;
-}
-#res-menu:checked ~ label #sign-one{
-    display: none;
-}
-#res-menu:checked ~ label #sign-two{
-    display: block;
-}
 }
 
 @media only screen and (min-width: 600px){
@@ -184,24 +153,6 @@ left: 0;
 }
 
 @media only screen and (orientation: landscape){
-    label #sign-one{
-        display: block;
-    }
-    nav ul li{
-        display: block;
-        margin: 40px 0;
-        line-height: 10px;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    #res-menu:checked ~ ul{
-    left: 0;
-    }
-    #res-menu:checked ~ label #sign-one{
-        display: none;
-    }
-    #res-menu:checked ~ label #sign-two{
-        display: block;
-    }
+
 }
+
