@@ -199,7 +199,10 @@ label #sign-two{
     margin: 5px 0;
     display: inline-flex;
   }
-  
+  .social > a:hover{
+    color: rgb(245, 12, 12);
+  }
+
 @media(max-width: 870px){
     label #sign-one{
         display: block;
