@@ -4,7 +4,6 @@
 }
 
 body{
-    background-color: white;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
@@ -94,37 +93,6 @@ label #sign-two{
     left: 0;
     top: 8px;
 }
-
-.row {
-    margin-top: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    color: rgb(0, 0, 0);
-  }
-
-  .col {
-    flex: 1 1 8%;
-    margin: 0 0 0.5rem 0;
-    padding: 0.5em 10px;
-    box-sizing: border-box;
-  }
-
-  .col-span-1 {
-    flex-basis: 8.3333%;
-  }
-
-  .row {
-    background-color: #cccccc;
-    background-color: rgba(0,0,0,0.1);
-  }
-  .col {
-    background-color: #999999;
-    background-color: rgba(87, 87, 87, 0.2);
-    background-clip: content-box;
-    border: 1px solid rgb(255, 255, 255);
-  }
-
   .banner-area{
     background-image: url(../images/gray.jpg); 
     -webkit-background-size: 100%;
@@ -229,6 +197,14 @@ label #sign-two{
     height: 5.5em;
 }
 
+/* .row {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+  } */
+
 .row {
     margin-top: 0.0rem;
     display: flex;
@@ -239,6 +215,17 @@ label #sign-two{
     color: rgb(0, 0, 0);
     overflow: hidden;
   }
+
+  /* .col {
+    flex: 1 1 8%;
+    margin: 0 0 0.5rem 0;
+    padding: 0.5em 10px;
+    box-sizing: border-box;
+  } */
+
+  /* .col-span-1 {
+    flex-basis: 8.3333%;
+  } */
 
   .col1 {
     flex: 1 1 8%;
