@@ -212,10 +212,6 @@ label #sign-two{
     box-sizing: border-box;
   } */
 
-  /* .col-span-1 {
-    flex-basis: 8.3333%;
-  } */
-
   .col1 {
     flex: 1 1 8%;
     margin: 0 0 0.0rem 0;
@@ -359,13 +355,13 @@ label #sign-two{
         display: block;
     }
 
-    .col-span-1{
+    .col-span-2{
         flex-basis: 50%;
     }
     }
 
 @media only screen and (max-width: 600px){
-    .col-span-1 {
+    .col-span-2 {
         flex-basis: 100%;
       }
       .header-text h1{
@@ -394,7 +390,7 @@ label #sign-two{
 }
 
 @media only screen and (min-width: 768px){
-    .col-span-1 {
+    .col-span-2 {
         flex-basis: 25%;
       }
       .header-text h1{
@@ -410,7 +406,7 @@ label #sign-two{
 }
 
 @media only screen and (min-width: 992px){
-    .col-span-1 {
+    .col-span-2 {
         flex-basis: 25%;
       }
       /* .header-text h1{
@@ -426,8 +422,8 @@ label #sign-two{
 }
 
 @media only screen and (min-width: 1200px){
-    .col-span-1 {
-        flex-basis: 8.3333%;
+    .col-span-2 {
+        flex-basis: 25%;
       }
 
       .header-text h1{
@@ -449,7 +445,7 @@ label #sign-two{
 
 }
 @media only screen and (max-width: 414px){
-    .col-span-1 {
+    .col-span-2 {
         flex-basis: 100%;
       }
 
