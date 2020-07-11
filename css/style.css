@@ -95,7 +95,6 @@ label #sign-two{
     background-image: url(../images/gray.jpg); 
     -webkit-background-size: 100%;
     background-size: 100% auto;
-    /* background-size: cover; */
     position: center center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -167,7 +166,7 @@ label #sign-two{
     display: inline-flex;
   }
   .social > a:hover{
-    color: rgb(245, 12, 12);
+    color: rgb(219, 223, 17);
   }
 
   .simple_text{
