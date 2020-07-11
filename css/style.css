@@ -204,6 +204,14 @@ label #sign-two{
     color: rgb(245, 12, 12);
   }
 
+  .simple_text{
+    background-color: rgba(0, 0, 0, 0.925);
+    padding: 4% 15% 4% 15%;
+    line-height: 2em;
+    text-align: center;
+  }
+
+
   @media only screen and (min-width: 360px){
     .col-span-1 {
         flex-basis: 100%;
