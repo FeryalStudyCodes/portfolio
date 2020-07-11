@@ -252,6 +252,28 @@ label #sign-two{
     position: relative;
   }
 
+  .log{
+    display: inline-block;
+    width: 100px;
+    height: 82px;
+    background-color: rgba(0, 0, 0, 0.822);
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .log1{
+    display: inline-block;
+    width: 100px;
+    height: 82px;
+    background-color: rgba(0, 0, 0, 0.925);
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   @media only screen and (min-width: 360px){
     .col-span-1 {
         flex-basis: 100%;
