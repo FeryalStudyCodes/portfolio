@@ -274,6 +274,42 @@ label #sign-two{
     justify-content: center;
   }
 
+  .col-span-2 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .col-span-2::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+  }
+  .col-span-2:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+  }
+  @-webkit-keyframes shine {
+    100% {
+      left: 125%;
+    }
+  }
+  @keyframes shine {
+    100% {
+      left: 125%;
+    }
+  }
+
+  
+
   @media only screen and (min-width: 360px){
     .col-span-1 {
         flex-basis: 100%;
