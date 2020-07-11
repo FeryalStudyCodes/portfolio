@@ -229,6 +229,29 @@ label #sign-two{
     height: 5.5em;
 }
 
+.row {
+    margin-top: 0.0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+  }
+
+  .col1 {
+    flex: 1 1 8%;
+    margin: 0 0 0.0rem 0;
+    padding: 7% 0 7% 0;
+    box-sizing: border-box;
+  }
+
+  .col-span-2 {
+    flex-basis:25%;
+    position: relative;
+  }
+
   @media only screen and (min-width: 360px){
     .col-span-1 {
         flex-basis: 100%;
