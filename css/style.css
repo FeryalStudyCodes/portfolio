@@ -308,7 +308,18 @@ label #sign-two{
     }
   }
 
-  
+  .hire_btn{
+    background: rgb(219, 223, 17);
+    display: inline-block;
+    padding: 0.5% 4% 0.5% 4%;
+    margin: 1.5em 0 0 0;
+    cursor: pointer;
+    border-radius: 1.5px;
+  }
+
+  .hire_btn a{
+    color: black;
+  }
 
   @media only screen and (min-width: 360px){
     .col-span-1 {
