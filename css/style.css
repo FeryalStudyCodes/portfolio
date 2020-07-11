@@ -8,6 +8,11 @@ body{
     font-weight: 300;
 }
 
+p{
+    color: white;
+    padding: 6px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -169,6 +174,11 @@ label #sign-two{
     color: rgb(219, 223, 17);
   }
 
+  .icon{
+    width: 7.5em;
+    height: 5.5em;
+}
+
   .simple_text{
     background-color: rgba(0, 0, 0, 0.925);
     padding: 4% 15% 4% 15%;
@@ -188,11 +198,6 @@ label #sign-two{
     letter-spacing: 1px;
     font-weight: lighter;
   }
-
-  .icon{
-    width: 7.5em;
-    height: 5.5em;
-}
 
 /* .row {
     margin-top: 0.5rem;
