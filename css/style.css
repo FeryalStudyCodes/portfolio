@@ -52,9 +52,7 @@ nav ul li a:before{
     content: '';
     width: 0px;
     height: 3px;
-    /* background: rgb(219, 223, 17); */
-    /* background: rgb(24, 121, 247); */
-    background: rgb(245, 12, 12);
+    background: rgb(219, 223, 17);
     position: absolute;
     top: 120%;
     left: 0;
