@@ -327,6 +327,129 @@ label #sign-two{
     left: 100%;
 }
 
+.contact{
+    padding: 4% 5% 1% 5%;
+    background-color: black;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact_title .line{
+    border-top: 4px solid yellow;
+    height: 10px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.contact_title .line:hover
+{
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    width: 15%;
+}
+.gap {
+    margin-bottom: 10px;
+}
+.contact ::selection {
+    color:#7F8289;
+    border: 1px solid #26292E;
+
+}
+.contact ::-moz-selection { /* For Firefox */
+    color:#7F8289;
+    border: 1px solid #26292E;
+
+}
+.contact .form_container{
+    max-width:50em;
+    margin:60px auto;
+    float:none;
+}
+
+input, textarea{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.contact .form_container input[type="email"], .contact .form_container  textarea {
+    /* color:#7F8289; */
+    font-size: 14px;
+    padding: 15px 0;
+    width: 100%;
+    padding-left:10px;
+    background:#26292E;
+    margin-bottom:20px;
+    border:0;
+    border:1px solid #26292E;
+    position:relative;
+    letter-spacing: 1px;
+}
+
+.contact .form_container input[type="text"] {
+    /* color:#7F8289; */
+    font-size: 14px;
+    padding: 15px 0;
+    width: 49%;
+    padding-left:10px;
+    background:#26292E;
+    margin:0px 0px 20px 0px;
+    border:0;
+    border:1px solid #26292E;
+    /* display: flex; */
+    position:relative;
+    letter-spacing: 1px;
+}
+
+.contact .form_container #name2{
+    margin-left: 10px;
+}
+
+.contact .form_container input[type="submit"] {
+    float:none;
+    border:none;
+    border-radius: 0;
+    padding:14px 20px;
+    line-height:14px;
+    cursor:pointer;
+    font-size:14px;
+    color:#000;
+    -webkit-appearance: none;
+    background: rgba(220, 223, 17, 0.877);
+    transition: 0.5s;
+    overflow:hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    position: relative;
+}
+
+.contact .form_container input[type="submit"]:hover{
+    background-color: yellow;
+}
+.contact .form_container input[type="submit"]::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,#fff,transparent);
+    transition: 0.5s;
+}
+.contact .form_container input[type="submit"]::before
+{
+    left: 100%;
+}
+
+
   @media only screen and (min-width: 360px){
     .col-span-1 {
         flex-basis: 100%;
