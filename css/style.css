@@ -300,11 +300,36 @@ label #sign-two{
     margin: 1.5em 0 0 0;
     cursor: pointer;
     border-radius: 1.5px;
+    position: relative;
+    transition: 0.5s;
+    overflow:hidden;
   }
 
   .hire_btn a{
     color: black;
   }
+.hire_btn:hover{
+    background-color: yellow;
+}
+.hire_btn:nth-child(2):hover
+{
+    background: rgb(207, 207, 1);
+}
+.hire_btn::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,#fff,transparent);
+    transition: 0.5s;
+}
+.hire_btn:hover::before
+{
+    left: 100%;
+}
 
   @media only screen and (min-width: 360px){
     .col-span-1 {
