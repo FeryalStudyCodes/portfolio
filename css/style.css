@@ -96,7 +96,7 @@ label #sign-two{
     left: 0;
     top: 8px;
 }
-  .banner-area{
+.banner-area{
     background-image: url(../images/gray.jpg); 
     -webkit-background-size: 100%;
     background-size: 100% auto;
@@ -309,9 +309,9 @@ label #sign-two{
   @media only screen and (min-width: 360px){
     .col-span-1 {
         flex-basis: 100%;
-      }
+    }
 
-      .header-text h1{
+    .header-text h1{
         top: 29vh;
     }
     .header-text h2{
@@ -320,6 +320,11 @@ label #sign-two{
     .social {
         top: 8vh;
       }
+
+    .icon{
+        width: 5.5em;
+        height: 3.5em;
+    }
 }
 
 @media(max-width: 870px){
@@ -358,34 +363,59 @@ label #sign-two{
     .col-span-2{
         flex-basis: 50%;
     }
+
+    .icon{
+        width: 5.5em;
+        height: 3.5em;
     }
+}
 
 @media only screen and (max-width: 600px){
     .col-span-2 {
         flex-basis: 100%;
-      }
-      .header-text h1{
-        top: 10vh;
+    }
+    .header-text h1{
+        top: 29vh;
         margin-right: 12%;
         font-size: 8vw;
     }
     .header-text h2{
-        top: 18vh;
+        top: 39vh;
         margin-right: 15%;
         font-size: 4.5vw;
+    }
+    .icon{
+        width: 5.5em;
+        height: 3.5em;
+    }
+    .banner-area{
+        height: 30.5vh;
+    }
+    .social {
+        top: 4.5vh;
+    }
+    .social a{
+        font-size: 15px;
     }
 }
 
 @media only screen and (min-width: 600px){
     .header-text h1{
-        top: 20vh;
+        top: 30vh;
         margin-right: 12%;
         font-size: 8vw;
     }
     .header-text h2{
-        top: 30vh;
+        top: 40vh;
         margin-right: 15%;
         font-size: 4.5vw;
+    }
+    .icon{
+        width: 5.5em;
+        height: 3.5em;
+    }
+    .banner-area{
+        height: 40vh;
     }
 }
 
@@ -394,14 +424,30 @@ label #sign-two{
         flex-basis: 25%;
       }
       .header-text h1{
-        top: 20vh;
+        top: 40vh;
         margin-right: 12%;
         font-size: 8vw;
     }
     .header-text h2{
-        top: 30vh;
+        top: 50vh;
         margin-right: 15%;
         font-size: 4.5vw;
+    }
+    .social {
+        top: 30vh;
+    }
+    .icon{
+        width: 5.5em;
+        height: 3.5em;
+    }
+    /* .banner-area{
+        height: 50vh;
+    } */
+    .social a{
+        font-size: 15px;
+    }
+    .banner-area{
+        height: 70vh;
     }
 }
 
@@ -409,7 +455,7 @@ label #sign-two{
     .col-span-2 {
         flex-basis: 25%;
       }
-      /* .header-text h1{
+      .header-text h1{
         top: 25vh;
         margin-right: 12%;
         font-size: 8vw;
@@ -418,7 +464,14 @@ label #sign-two{
         top: 35vh;
         margin-right: 15%;
         font-size: 4.5vw;
-    } */
+    }
+    .icon{
+        width: 7.5em;
+        height: 5.5em;
+    }
+    .banner-area{
+        height: 60vh;
+    }
 }
 
 @media only screen and (min-width: 1200px){
@@ -435,6 +488,13 @@ label #sign-two{
     .social {
         top: 30vh;
     }
+    .icon{
+        width: 7.5em;
+        height: 5.5em;
+    }
+    .banner-area{
+        height: 100vh;
+    }
 }
 
 @media only screen and (orientation: portrait){
@@ -447,15 +507,24 @@ label #sign-two{
 @media only screen and (max-width: 414px){
     .col-span-2 {
         flex-basis: 100%;
-      }
-
-      .header-text h1{
+    }
+    .header-text h1{
         top: 29vh;
     }
     .header-text h2{
         top: 36vh;
     }
     .social {
-        top: 5.5vh;
-      }
+        top: 3vh;
+    }
+    .icon{
+        width: 5.5em;
+        height: 3.5em;
+    }
+    .banner-area{
+        height: 28vh;
+    }
+    .social a{
+        font-size: 13px;
+    }
 }
