@@ -294,7 +294,7 @@ label #sign-two{
   }
 
   .hire_btn{
-    background: rgb(219, 223, 17);
+    background: rgba(220, 223, 17, 0.877);
     display: inline-block;
     padding: 0.5% 4% 0.5% 4%;
     margin: 1.5em 0 0 0;
