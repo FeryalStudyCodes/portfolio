@@ -311,10 +311,6 @@ label #sign-two{
 .hire_btn:hover{
     background-color: yellow;
 }
-.hire_btn:nth-child(2):hover
-{
-    background: rgb(207, 207, 1);
-}
 .hire_btn::before
 {
     content: '';
