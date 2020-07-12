@@ -448,6 +448,10 @@ input, textarea{
 {
     left: 100%;
 }
+.contact .form_container textarea {
+    height:200px;
+    resize:none;
+}
 
 
   @media only screen and (min-width: 360px){
