@@ -488,7 +488,7 @@ input, textarea{
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffee01, 0 0 40px #e6d700, 0 0 50px #e6d700, 0 0 60px #e6d700, 0 0 70px #e6d700;
     }
     to {
-      text-shadow: 0 0 15px #fff, 0 0 30px #f0e229, 0 0 40px #f0e229, 0 0 50px #fff129, 0 0 60px #fff129, 0 0 70px #fff129, 0 0 80px #fff129;
+      text-shadow: 0 0 15px #fff, 0 0 25px #f0e229, 0 0 35px #f0e229, 0 0 45px #fff129, 0 0 55px #fff129, 0 0 65px #fff129, 0 0 75px #fff129;
     }
   }
 
