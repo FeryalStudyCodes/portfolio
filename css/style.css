@@ -280,6 +280,27 @@ label #sign-two{
     }
   }
 
+  .about_title{
+    color: white;
+}
+.about_title .line{
+    border-top: 4px solid yellow;
+    height: 10px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.about_title .line:hover
+{
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    width: 15%;
+}
+
   .des_parag{
     background-color: rgba(0, 0, 0, 0.925);
     padding: 4% 15% 4% 15%;
