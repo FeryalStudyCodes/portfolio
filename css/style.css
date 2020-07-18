@@ -190,14 +190,6 @@ label #sign-two{
     height: 5.5em;
 }
 
-/* .row {
-    margin-top: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    color: rgb(0, 0, 0);
-  } */
-
 .row {
     margin-top: 0.0rem;
     display: flex;
@@ -208,13 +200,6 @@ label #sign-two{
     color: rgb(0, 0, 0);
     overflow: hidden;
   }
-
-  /* .col {
-    flex: 1 1 8%;
-    margin: 0 0 0.5rem 0;
-    padding: 0.5em 10px;
-    box-sizing: border-box;
-  } */
 
   .col1 {
     flex: 1 1 8%;
@@ -254,7 +239,7 @@ label #sign-two{
     position: relative;
     overflow: hidden;
   }
-  
+
   .col-span-2::before {
     position: absolute;
     top: 0;
@@ -350,6 +335,16 @@ label #sign-two{
 .hire_btn:hover::before
 {
     left: 100%;
+}
+
+.work-container{
+    padding: 4% 5% 1% 5%;
+    background-color: black;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .contact{
