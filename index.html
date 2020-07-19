@@ -13,23 +13,47 @@
 
 </head>
 <body>
-    <nav>
-        <input type="checkbox" id="res-menu">
-        <label for="res-menu">
-            <i class="fa fa-bars" id="sign-one"></i>
-            <i class="fa fa-times" id="sign-two"></i>
-        </label>
-        <h1 class="page-title">Feryal</h1>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#works">Works</a></li>
-            <li><a href="#">Testimonails</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div>
+      <nav>
+          <input type="checkbox" id="res-menu">
+          <label for="res-menu">
+              <i class="fa fa-bars" id="sign-one"></i>
+              <i class="fa fa-times" id="sign-two"></i>
+          </label>
+          <h1 class="page-title">Feryal</h1>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#works">Works</a></li>
+              <li><a href="#">Testimonails</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+
+    <!-- <nav class="navbar navbar-expand-md navbar-inverse">
+      <div class="container-fluid">
+         <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MyNavbar" id="res-menu">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button> 
+            <h1 class="page-title navbar-brand">Feryal</h1>
+         </div>
+         <div class="collapse navbar-collapse" id="MyNavbar">
+            <ul class="nav navbar-nav navbar right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#works">Works</a></li>
+              <li><a href="#">Testimonails</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+      </div>
+    </div>
+  </nav> -->
     
-    <div class="banner-area">
+    <div class="row banner-area container-fluid">
         <div class="banner-text">
             <div class="header-text">
                <h2>Developer</h2>
@@ -44,7 +68,7 @@
     </div>
     </div>
 
-    <div class="simple_text" id="about">
+    <div class="simple_text container-fluid" id="about">
       <div class="about_title">
         <h1>About Me</h1>
         <div class="line">
@@ -481,7 +505,7 @@ c4.015-1.336,6.86-4.918,7.253-9.131l32-341.333C437.592,115.35,436.6,112.384,434.
       </div>
     </div>
 
-    <div class="work-container container-fluid" id="works">
+    <div class="work-container id="works">
       <div class="about_title">
         <h1>My Works</h1>
         <div class="line">
@@ -489,15 +513,37 @@ c4.015-1.336,6.86-4.918,7.253-9.131l32-341.333C437.592,115.35,436.6,112.384,434.
         </div>
       </div>
       <div class="gap"></div>
-      <div class="row" style="color: #fff;">
-        <div class="col-sm-3"><img src="images/work1.png" class="float-left" alt="Work 1"> </div>
-        <div class="col-sm-3"><img src="images/work2.jpg" class="float-left" alt="Work 2"> </div>
-        <div class="col-sm-3"><img src="images/work3.png" class="float-left" alt="Work 3"> </div>
-        <div class="col-sm-3"><img src="images/work4.png" class="float-left" alt="Work 4"> </div>
+      <div class="container">
+        <div class="row imagetiles flip-container" style="color: #fff;" ontouchstart="this.classList.toggle('hover');">
+          <div class="card flipper col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <div class="card-inner">
+              <div class="front">
+                <img src="images/work1.png" class="img-responsive" alt="Work 1"> 
+              </div>
+              <div class="back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+            <img src="images/work2.jpg" class="img-responsive" alt="Work 2"> 
+          </div>
+          <div class="card col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+            <img src="images/work3.png" class="img-responsive" alt="Work 3"> 
+          </div>
+          <div class="card col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+            <img src="images/work4.png" class="img-responsive" alt="Work 4"> 
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="des_parag">
+    <div class="des_parag container-fluid">
       <h3> Need something specific?</h3>
       <p>We are currently crafting new products but would love to hear from you.</p>
       <div class="hire_btn">
@@ -505,7 +551,7 @@ c4.015-1.336,6.86-4.918,7.253-9.131l32-341.333C437.592,115.35,436.6,112.384,434.
       </div>
     </div>
 
-    <div class="contact" id="contact">
+    <div class="contact container-fluid" id="contact">
     <div class="contact_title">
       <h1>Get in Touch</h1>
       <div class="line">
