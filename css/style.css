@@ -22,9 +22,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
    }
 
-   nav{
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #000;
+    margin-top: 0;
+    padding: 0 0;
+    font-size: 1.2em;
+    border: 0;
+}
+
+nav{
     height: 50px;
     background-color: black;
+    
 }
 
 nav h1{
@@ -103,10 +114,12 @@ label #sign-two{
 .banner-area{
     background-image: url(../images/gray.jpg); 
     -webkit-background-size: 100%;
-    background-size: 100% auto;
+    /* background-size: 100% 100%; */
+    background-size: cover;
     position: center center;
     background-repeat: no-repeat;
     height: 100vh;
+    max-height: 100vh;
     max-width: 100%;
 }
 .banner-text{
@@ -347,11 +360,106 @@ label #sign-two{
     text-align: center;
 }
 
+.container{
+    display: block;
+    padding: 2% 10% 0 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div img{
+    width: 20em;
+    margin-bottom: 8%;
+    position: relative;
+    padding: 0;
+}
+
+.imagetiles{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.back{
+    display: none;
+}
+
+/* .flip-container {
+	perspective: 1000px;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 20rem;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+   position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.front {
+	z-index: 2;
+   transform: rotateY(0deg);
+    background-color: #bbb;
+}
+.back {
+    transform: rotateY(180deg);
+    background-color: #e6d700;
+} */
+
+/* .card{
+    perspective: 1000px;
+}
+.front,
+.back  {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    display: flex;
+  
+    color: #888;
+    background-color: #fff; 
+  
+    justify-content: center;
+    align-items: center;
+  width: 20rem;
+  backface-visibility: hidden;
+}
+
+.card .card-inner:hover,
+.card .card-inner:active,
+.card .card-inner:focus {
+        transform: rotateY(180deg);
+  }
+
+  .card,
+.card-inner {
+  position: relative;
+
+  width: 300px;
+  height: 320px;
+}
+  .card-inner {
+    transition: transform .25s ease-in-out;
+    transform-origin: 50% 50%;
+    transform-style: preserve-3d;
+  } */
+
 .contact{
     padding: 4% 5% 1% 5%;
     background-color: black;
     color: white;
     display: block;
+    line-height: 30px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -365,8 +473,7 @@ label #sign-two{
     margin: 0 auto;
     margin-top: 20px;
 }
-.contact_title .line:hover
-{
+.contact_title .line:hover{
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -453,8 +560,7 @@ input, textarea{
 .contact .form_container input[type="submit"]:hover{
     background-color: yellow;
 }
-.contact .form_container input[type="submit"]::before
-{
+.contact .form_container input[type="submit"]::before{
     content: '';
     position: absolute;
     top: 0;
@@ -464,8 +570,7 @@ input, textarea{
     background: linear-gradient(90deg,transparent,#fff,transparent);
     transition: 0.5s;
 }
-.contact .form_container input[type="submit"]::before
-{
+.contact .form_container input[type="submit"]::before{
     left: 100%;
 }
 .contact .form_container textarea {
@@ -490,6 +595,10 @@ input, textarea{
       text-shadow: 0 0 15px #fff, 0 0 25px #f0e229, 0 0 35px #f0e229, 0 0 45px #fff129, 0 0 55px #fff129, 0 0 65px #fff129, 0 0 75px #fff129;
     }
   }
+
+  /* div.imagetiles div.col-lg-3 div.col-md-3 div.col-sm-3 div.col-xs-6{
+    padding: 0;
+} */
 
   @media only screen and (min-width: 360px){
     .col-span-1 {
@@ -602,6 +711,10 @@ input, textarea{
     .banner-area{
         height: 40vh;
     }
+
+    /* div.imagetiles div.col-lg-3 div.col-md-3 div.col-sm-3 div.col-xs-6{
+        padding: 5px;
+    } */
 }
 
 @media only screen and (min-width: 768px){
@@ -712,4 +825,12 @@ input, textarea{
     .social a{
         font-size: 13px;
     }
+    .contact .form_container input[type="text"] {
+        width: 100%;
+    }
+    .contact .form_container #name2{
+        margin-left: 0px;
+    }
 }
+
+
